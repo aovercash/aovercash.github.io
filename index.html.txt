@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <style>
+<head>
+<style>
 body {
-background-color: #E59C5;
+background-color: #e59c5;
 }
 h1 {
-color: #322C30;
+color: #322c30;
 }
 p {
-color: #8F948C;
+color: #8f948c;
 }
-  </style>
-    <title>
-    My Personal Introduction
-    </title>
-  </head>
-  <body>
-    <h1>My name is Amber</h1>
-    <p>I am a data science student at Wake Tech. In my free time I spend time with my daughter and spend time outside. I look forward to learning more in this course.</p>
-  </body>
+</style>
+<title>
+My Personal Introduction
+</title>
+</head>
+<body>
+<h1>My name is Amber</h1>
+<p>I am a data science student at Wake Tech. In my free time I spend time with my daughter and spend time outside. I look forward to learning more in this course.</p>
+</body>
 </html>
 
