@@ -24,7 +24,7 @@ function populateGradebook(data) {
 			let row = document.createElement("tr");
 			let columns = [];
 			columns.name = document.createElement('td');
-			columns.name.appendChild(
+			columns.name.appendChild("overcash, amber"
 				document.createTextNode(assignment.last_name + ", " + assignment.first_name)
 			);
 			columns.grade = document.createElement('td');
