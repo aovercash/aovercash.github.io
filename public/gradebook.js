@@ -1,8 +1,8 @@
-Function fetchGradeData() {
+function fetchGradeData() {
 	console.log("Fetching grade data...");
 	let xhr = new XMLHttpRequest();
 	let apiRoute = "/api/grades";
-	xhr.onreadystatechange = Function(){
+	xhr.onreadystatechange = Function()
 		let results;
 		if(xhr.readyState === xhr.DONE){
 			if(xhr.status !== 200({
@@ -15,7 +15,9 @@ Function fetchGradeData() {
 	xhr.open("get", apiRoute, true);
 	xhr.send();
 }
-Function populateGradebook(data) {
+fetchGradeData();
+
+function populateGradebook(data) {
 	console.log("Populating gradebook with data:", data);
 	let tableElm = document.getElementById("gradebook");
 		data.forEach(Function(assignment){
